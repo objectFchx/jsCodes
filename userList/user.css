@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif,'黑体';
+}
+.user-wrap {
+    width: 500px;
+    height: 600px;
+    background: rgba(0,0,200,0.1);
+    margin: 0 auto;
+}
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 32px;
+    width: 300px;
+    margin: 0 auto;
+}
+.btn-group .btn {
+    display: inline-block;
+    padding: 4px 10px;
+    background: rgba(0,0,200,0.1);
+    color: rgba(0,0,200,1);
+    font-weight: 600;
+    border: 1px solid rgba(0,0,200,0.4);
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px rgba(0,0,200,0.3);
+}
+.btn-group .btn:active,
+.btn-group .btn.is-actived {
+    outline: 0;
+    background: #fff;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid rgba(0,0,200,0.6);
+}
+.table thead {
+    background: #fff;
+}
+.table tr td {
+border: 1px solid rgba(0,0,200,0.6)
+}
+.mgb-20 {
+    margin-bottom: 20px;
+}
